@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Investinglive RSS Breaking News Feed</title>
+    <link>https://example.com/investinglive/</link>
+    <item>
+      <title>USD/JPY climbs as yields rise</title>
+      <link>https://example.com/investinglive/usd-jpy-climbs-as-yields-rise</link>
+      <guid isPermaLink="false">investinglive-1</guid>
+      <description>The pair moves up with US yields.</description>
+      <pubDate>Tue, 28 Jul 2026 14:10:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>EUR/USD slips before the ECB decision</title>
+      <link>https://example.com/investinglive/eur-usd-slips-before-the-ecb-decision</link>
+      <guid isPermaLink="false">investinglive-2</guid>
+      <description>The euro eases in early European trade ahead of the ECB rate decision later today.</description>
+      <pubDate>Thu, 23 Jul 2026 06:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AUD/NZD edges up in thin trade</title>
+      <link>https://example.com/investinglive/aud-nzd-edges-up-in-thin-trade</link>
+      <guid isPermaLink="false">investinglive-3</guid>
+      <description>A quiet session for the cross.</description>
+      <pubDate>Thu, 09 Jul 2026 13:05:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

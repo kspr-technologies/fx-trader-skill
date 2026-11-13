@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Forex News</title>
+    <link>https://example.com/investing-forex/</link>
+    <item>
+      <title>Yen slides as BoJ holds</title>
+      <pubDate>2026-07-27 03:40:00</pubDate>
+      <author>Investing.com</author>
+      <link>https://example.com/investing-forex/yen-slides-as-boj-holds</link>
+    </item>
+    <item>
+      <title>Aussie slips as iron ore prices ease</title>
+      <pubDate>2026-07-20 23:15:00</pubDate>
+      <author>Investing.com</author>
+      <link>https://example.com/investing-forex/aussie-slips-as-iron-ore-prices</link>
+    </item>
+    <item>
+      <title>Dutch inflation rises</title>
+      <pubDate>2026-07-08 09:30:00</pubDate>
+      <author>Investing.com</author>
+      <link>https://example.com/investing-forex/dutch-inflation-rises</link>
+    </item>
+  </channel>
+</rss>

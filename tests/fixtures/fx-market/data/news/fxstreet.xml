@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>FXStreet Forex &amp; Commodities News</title>
+    <link>https://example.com/fxstreet/</link>
+        <item>
+            <title><![CDATA[XAU/USD: gold eases in quiet Asian trade]]></title>
+            <link>https://example.com/fxstreet/xau-usd-gold-eases-in-quiet-asian</link>
+            <guid isPermaLink="false">fxs-0001</guid>
+            <pubDate>Mon, 27 Jul 2026 06:30:00 GMT</pubDate>
+            <description><![CDATA[Gold slips a little in a calm session.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GBP/USD steadies after UK retail sales]]></title>
+            <link>https://example.com/fxstreet/gbp-usd-steadies-after-uk-retail-sales</link>
+            <guid isPermaLink="false">fxs-0002</guid>
+            <pubDate>Fri, 24 Jul 2026 09:15:00 GMT</pubDate>
+            <description><![CDATA[Cable holds its range after the data.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Gold climbs to a three-week high as the dollar slips]]></title>
+            <link>https://example.com/fxstreet/gold-climbs-to-a-three-week-high</link>
+            <guid isPermaLink="false">fxs-0003</guid>
+            <pubDate>Thu, 16 Jul 2026 21:40:00 GMT</pubDate>
+            <description><![CDATA[Gold extends its gains late on Thursday as the US dollar loses ground.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[XAUUSD drifts in a narrow range]]></title>
+            <link>https://example.com/fxstreet/xauusd-drifts-in-a-narrow-range</link>
+            <guid isPermaLink="false">fxs-0004</guid>
+            <pubDate>Fri, 10 Jul 2026 08:20:00 GMT</pubDate>
+            <description><![CDATA[Gold trades in a tight band on Friday morning.]]></description>
+        </item>
+  </channel>
+</rss>

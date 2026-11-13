@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Commodities &amp; Futures News</title>
+    <link>https://example.com/investing-commodities/</link>
+    <item>
+      <title>Natural gas falls after a mild weather outlook</title>
+      <pubDate>2026-07-30 16:20:00</pubDate>
+      <author>Investing.com</author>
+      <link>https://example.com/investing-commodities/natural-gas-falls-after-a-mild</link>
+    </item>
+    <item>
+      <title>Silver gains with platinum on supply worries</title>
+      <pubDate>2026-07-24 11:05:00</pubDate>
+      <author>Investing.com</author>
+      <link>https://example.com/investing-commodities/silver-gains-with-platinum-on-supply</link>
+    </item>
+    <item>
+      <title>Copper firms as Chilean output dips</title>
+      <pubDate>2026-07-14 15:40:00</pubDate>
+      <author>Investing.com</author>
+      <link>https://example.com/investing-commodities/copper-firms-as-chilean-output-dips</link>
+    </item>
+    <item>
+      <title>Kiwi fruit exports reach a record</title>
+      <pubDate>2026-07-06 10:12:00</pubDate>
+      <author>Investing.com</author>
+      <link>https://example.com/investing-commodities/kiwi-fruit-exports-reach-a-record</link>
+    </item>
+  </channel>
+</rss>

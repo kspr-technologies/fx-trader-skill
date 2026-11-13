@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Oilprice.com</title>
+    <link>https://example.com/oilprice/</link>
+    <item>
+      <title>OPEC+ keeps output plan unchanged</title>
+      <link>https://example.com/oilprice/opec-keeps-output-plan-unchanged</link>
+      <guid isPermaLink="false">oilprice-1</guid>
+      <description>The group sticks to its plan for September.</description>
+      <pubDate>Wed, 29 Jul 2026 09:45:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Oil holds steady as US stocks build</title>
+      <link>https://example.com/oilprice/oil-holds-steady-as-us-stocks</link>
+      <guid isPermaLink="false">oilprice-2</guid>
+      <description>Crude prices change little after a build in US crude stocks.</description>
+      <pubDate>Wed, 22 Jul 2026 11:05:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Refinery outage lifts diesel margins</title>
+      <link>https://example.com/oilprice/refinery-outage-lifts-diesel-margins</link>
+      <guid isPermaLink="false">oilprice-3</guid>
+      <description>A plant shutdown tightens fuel supply.</description>
+      <pubDate>Fri, 10 Jul 2026 10:30:00 -0400</pubDate>
+    </item>
+  </channel>
+</rss>

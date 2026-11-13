@@ -1,0 +1,171 @@
+{
+  "account": {
+    "currency": "USD", "balance": 1000, "leverage": 100,
+    "margin_call_pct": 100, "stop_out_pct": 50, "swap_free": false,
+    "server_time": "ny+7", "platform": "mt5", "hedging": true
+  },
+  "paper": true,
+  "yahoo": true,
+  "allow_short": true,
+  "style": "swing",
+  "day_end": "17:00 New York",
+  "universe": ["EURUSD", "GBPUSD", "USDJPY", "USDCHF", "AUDUSD", "USDCAD", "NZDUSD", "EURJPY", "GBPJPY", "EURGBP",
+               "AUDJPY", "EURCHF", "XAUUSD", "XAGUSD", "XPTUSD", "XPDUSD", "COPPER", "USOIL", "UKOIL", "NATGAS"],
+  "day_universe": ["EURUSD", "GBPUSD", "USDJPY", "XAUUSD"],
+  "risk": {
+    "max_risk_per_trade_pct": 1.0, "max_risk_per_trade_usd": null, "max_daily_loss_pct": 3.0,
+    "max_daily_loss_usd": null, "max_open_trades": 3, "max_trades_per_day": 3,
+    "max_orders_per_day": 10, "max_group_risk_pct": 2.0, "max_currency_risk_pct": 2.0,
+    "min_reward_risk": 1.5, "require_stop": true, "max_margin_used_pct": 30,
+    "min_margin_level_pct": 300, "blocked": []
+  },
+  "swing": {
+    "stop": "atr:2", "target": "2R", "entry": "market",
+    "max_hold_days": 20, "friday_cutoff_ny": "12:00"
+  },
+  "day": {
+    "or_session": "london", "or_minutes": 15, "stop": "or-mid",
+    "target": "2R", "no_entries_after": "21:00", "flat_by": "23:30"
+  },
+  "news": {
+    "quiet_before_min": 30, "quiet_after_min": 30, "impacts": ["High"],
+    "feeds": [
+      {"name": "fxstreet", "url": "https://www.fxstreet.com/rss/news"},
+      {"name": "investinglive", "url": "https://investinglive.com/feed/"},
+      {"name": "investing-commodities", "url": "https://www.investing.com/rss/news_11.rss"},
+      {"name": "investing-forex", "url": "https://www.investing.com/rss/news_1.rss"},
+      {"name": "oilprice", "url": "https://oilprice.com/rss/main"},
+      {"name": "cnbc-energy", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19836768"},
+      {"name": "fed-monetary", "url": "https://www.federalreserve.gov/feeds/press_monetary.xml"},
+      {"name": "ecb-press", "url": "https://www.ecb.europa.eu/rss/press.html"},
+      {"name": "boe-news", "url": "https://www.bankofengland.co.uk/rss/news"},
+      {"name": "boj-news", "url": "https://www.boj.or.jp/en/rss/whatsnew.xml"}
+    ]
+  },
+  "calendar_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+  "holidays": {},
+  "early_closes": {},
+  "fx_rates_max_age_hours": 24,
+  "instruments": {
+    "EURUSD": {
+      "broker_symbol": "EURUSD", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 1, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": -6.23, "swap_short": 3.1, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "EUR", "yahoo_to_broker": 1.0
+    },
+    "GBPUSD": {
+      "broker_symbol": "GBPUSD", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 3, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": -1.63, "swap_short": -1.37, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "GBP", "yahoo_to_broker": 1.0
+    },
+    "USDJPY": {
+      "broker_symbol": "USDJPY", "contract_size": 100000, "digits": 3, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 1, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 6.9, "swap_short": -13.93, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 10, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "JPY", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "USDCHF": {
+      "broker_symbol": "USDCHF", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 4, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 6.23, "swap_short": -10.07, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 10, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "CHF", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "AUDUSD": {
+      "broker_symbol": "AUDUSD", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 1, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 0.7, "swap_short": -2.3, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "AUD", "yahoo_to_broker": 1.0
+    },
+    "USDCAD": {
+      "broker_symbol": "USDCAD", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 2, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 4.4, "swap_short": -7.5, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "CAD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "NZDUSD": {
+      "broker_symbol": "NZDUSD", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 3, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": -3.12, "swap_short": 1.37, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "NZD", "yahoo_to_broker": 1.0
+    },
+    "EURJPY": {
+      "broker_symbol": "EURJPY", "contract_size": 100000, "digits": 3, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 5, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 4.56, "swap_short": -9.21, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 5, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "JPY", "margin_currency": "EUR", "yahoo_to_broker": 1.0
+    },
+    "GBPJPY": {
+      "broker_symbol": "GBPJPY", "contract_size": 100000, "digits": 3, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 10, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 9.07, "swap_short": -21.8, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 10, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "JPY", "margin_currency": "GBP", "yahoo_to_broker": 1.0
+    },
+    "EURGBP": {
+      "broker_symbol": "EURGBP", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 4, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": -4.31, "swap_short": 2.12, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "GBP", "margin_currency": "EUR", "yahoo_to_broker": 1.0
+    },
+    "AUDJPY": {
+      "broker_symbol": "AUDJPY", "contract_size": 100000, "digits": 3, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 9, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 6.58, "swap_short": -12.78, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 5, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "JPY", "margin_currency": "AUD", "yahoo_to_broker": 1.0
+    },
+    "EURCHF": {
+      "broker_symbol": "EURCHF", "contract_size": 100000, "digits": 5, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "forex", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 9, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": 4.43, "swap_short": -9.99, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 10, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "CHF", "margin_currency": "EUR", "yahoo_to_broker": 1.0
+    },
+    "XAUUSD": {
+      "broker_symbol": "XAUUSD", "contract_size": 100, "digits": 2, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 9, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": -54.84, "swap_short": 38.52, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 45, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "XAGUSD": {
+      "broker_symbol": "XAGUSD", "contract_size": 5000, "digits": 3, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 21, "commission_per_lot_side": 3.0,
+      "swap_mode": "points", "swap_long": -8.21, "swap_short": 3.99, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": 15, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "XPTUSD": {
+      "broker_symbol": "XPTUSD", "contract_size": 100, "digits": 2, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 420, "commission_per_lot_side": 3.0,
+      "swap_mode": "interest", "swap_long": -4.78, "swap_short": 3.36, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "XPDUSD": {
+      "broker_symbol": "XPDUSD", "contract_size": 100, "digits": 2, "min_lot": 0.01, "max_lot": 100, "lot_step": 0.01,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 1640, "commission_per_lot_side": 3.0,
+      "swap_mode": "interest", "swap_long": -4.78, "swap_short": 3.36, "swap_triple_day": "wednesday", "swap_free_fee_per_lot": null, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "COPPER": {
+      "broker_symbol": "COPPER", "contract_size": 1000, "digits": 4, "min_lot": 1, "max_lot": 250, "lot_step": 1,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": 50, "initial_margin": null, "spread_points": 21, "commission_per_lot_side": 0.0,
+      "swap_mode": "points", "swap_long": -16.03, "swap_short": 6.19, "swap_triple_day": "friday", "swap_free_fee_per_lot": 1, "swap_free_grace_nights": 6,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "USOIL": {
+      "broker_symbol": "USOIL", "contract_size": 1, "digits": 2, "min_lot": 1, "max_lot": 10000, "lot_step": 1,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 4, "commission_per_lot_side": 0.0,
+      "swap_mode": "points", "swap_long": 0.78, "swap_short": -1.39, "swap_triple_day": "friday", "swap_free_fee_per_lot": 0.1, "swap_free_grace_nights": 3,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "UKOIL": {
+      "broker_symbol": "UKOIL", "contract_size": 1, "digits": 2, "min_lot": 1, "max_lot": 10000, "lot_step": 1,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": null, "initial_margin": null, "spread_points": 4, "commission_per_lot_side": 0.0,
+      "swap_mode": "points", "swap_long": 2.27, "swap_short": -3.17, "swap_triple_day": "friday", "swap_free_fee_per_lot": 0.1, "swap_free_grace_nights": 3,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    },
+    "NATGAS": {
+      "broker_symbol": "NATGAS", "contract_size": 10000, "digits": 3, "min_lot": 0.01, "max_lot": 50, "lot_step": 0.01,
+      "calc_mode": "cfd_leverage", "margin_rate": 1.0, "leverage": 20, "initial_margin": null, "spread_points": 4, "commission_per_lot_side": 0.0,
+      "swap_mode": "points", "swap_long": -8.99, "swap_short": 5.31, "swap_triple_day": "friday", "swap_free_fee_per_lot": 80, "swap_free_grace_nights": 0,
+      "stops_level_points": 0, "profit_currency": "USD", "margin_currency": "USD", "yahoo_to_broker": 1.0
+    }
+  }
+}

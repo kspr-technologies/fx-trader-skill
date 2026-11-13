@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>FRB: Press Release - Monetary Policy</title>
+    <link>https://example.com/fed-monetary/</link>
+        <item>
+            <title>Federal Reserve issues FOMC statement</title>
+            <link><![CDATA[https://example.com/fed-monetary/federal-reserve-issues-fomc-statement]]></link>
+            <guid><![CDATA[https://example.com/fed-monetary/federal-reserve-issues-fomc-statement]]></guid>
+            <description><![CDATA[Federal Reserve issues FOMC statement]]></description>
+            <category>Monetary Policy</category>
+            <pubDate><![CDATA[Wed, 29 Jul 2026 18:00:00 GMT]]></pubDate>
+        </item>
+        <item>
+            <title>Minutes of the Federal Open Market Committee, June 16-17, 2026</title>
+            <link><![CDATA[https://example.com/fed-monetary/minutes-of-the-federal-open-market]]></link>
+            <guid><![CDATA[https://example.com/fed-monetary/minutes-of-the-federal-open-market]]></guid>
+            <description><![CDATA[Minutes of the Federal Open Market Committee]]></description>
+            <category>Monetary Policy</category>
+            <pubDate><![CDATA[Wed, 08 Jul 2026 18:00:00 GMT]]></pubDate>
+        </item>
+        <item>
+            <title>Federal Reserve Board announces approval of discount rate actions</title>
+            <link><![CDATA[https://example.com/fed-monetary/federal-reserve-board-announces-approval-of]]></link>
+            <guid><![CDATA[https://example.com/fed-monetary/federal-reserve-board-announces-approval-of]]></guid>
+            <description><![CDATA[Discount rate actions of the Reserve Banks]]></description>
+            <category>Monetary Policy</category>
+            <pubDate><![CDATA[Tue, 30 Jun 2026 20:00:00 GMT]]></pubDate>
+        </item>
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+{
+  "checked": {
+    "BZ": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-31T21:30:00Z"
+    },
+    "CL": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-31T21:30:00Z"
+    },
+    "GC": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-29T08:12:00Z"
+    },
+    "HG": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-31T21:30:00Z"
+    },
+    "NG": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-31T21:30:00Z"
+    },
+    "PA": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-31T21:30:00Z"
+    },
+    "PL": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-31T21:30:00Z"
+    },
+    "SI": {
+      "history_from": "2026-04-06",
+      "history_to": "2026-07-31",
+      "last_forward": "2026-07-31T21:30:00Z"
+    }
+  },
+  "rolls": [
+    {
+      "confidence": "exact",
+      "first_bar_new": "2026-07-29T07:00:00Z",
+      "found_at": "2026-07-29T08:12:00Z",
+      "found_by": "shortname",
+      "id": "GC-2026-07-29",
+      "new": "GCZ26.CMX",
+      "new_name": "Gold Dec 26",
+      "new_price": 2500.3,
+      "note": "",
+      "old": "GCQ26.CMX",
+      "old_name": "Gold Aug 26",
+      "old_price": 2478.0,
+      "prices_at": "2026-07-29T06:00:00Z",
+      "ratio": 1.008999192897498,
+      "replaced_bar": true,
+      "replacement": {
+        "1h": [
+          1785308400,
+          2500.39990234375,
+          2503.0,
+          2498.89990234375,
+          2500.60009765625,
+          9697
+        ]
+      },
+      "root": "GC",
+      "yahoo": "GC=F"
+    }
+  ],
+  "updated_at": "2026-07-31T21:30:00Z"
+}

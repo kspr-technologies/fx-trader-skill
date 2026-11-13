@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fx-trader-skill",
+  "description": "The FX Trader skill pack for Claude: eleven skills for currency pairs, gold, silver, oil, gas and copper at a MetaTrader broker, for swing or day trades, paper by default",
+  "owner": {
+    "name": "Waleed Amjad",
+    "email": "waleedamjad99@hotmail.com"
+  },
+  "plugins": [
+    {
+      "name": "fx-trader-skill",
+      "description": "Eleven Claude skills for currency pairs and commodities at a MetaTrader broker: a chart scanner, a news monitor, an economic calendar, a COT reader, an entry timer, an exit planner for swing or day trades, a time machine that replays a trade 10,000 times, a budget manager that sizes in lots, a risk manager, an order ticket you place yourself (paper by default, never without your yes) and alerts.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

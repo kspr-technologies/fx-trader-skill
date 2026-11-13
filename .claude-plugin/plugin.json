@@ -1,0 +1,24 @@
+{
+  "name": "fx-trader-skill",
+  "description": "11 Claude skills for trading currency pairs, gold and oil at a MetaTrader broker: scan for setups on both sides, track the news and the calendar, time every entry and exit, and replay a trade 10,000 times before you risk a dollar.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Waleed Amjad",
+    "email": "waleedamjad99@hotmail.com"
+  },
+  "homepage": "https://github.com/kspr-technologies/fx-trader-skill",
+  "repository": "https://github.com/kspr-technologies/fx-trader-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "forex",
+    "metatrader",
+    "gold",
+    "commodities",
+    "swing-trading",
+    "day-trading",
+    "paper-trading"
+  ],
+  "skills": "./"
+}

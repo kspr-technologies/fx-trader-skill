@@ -1,0 +1,132 @@
+{
+  "error": null,
+  "etag": null,
+  "events": [
+    {
+      "country": "JPY",
+      "date": "2026-07-26T18:50:00-04:00",
+      "forecast": "3.1%",
+      "impact": "Low",
+      "previous": "3.2%",
+      "title": "SPPI y/y"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-27T10:30:00-04:00",
+      "forecast": "-6.2",
+      "impact": "Low",
+      "previous": "-9.1",
+      "title": "Dallas Fed Manufacturing Index"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-28T04:00:00-04:00",
+      "forecast": "3.4%",
+      "impact": "Low",
+      "previous": "3.3%",
+      "title": "M3 Money Supply y/y"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-28T10:00:00-04:00",
+      "forecast": "96.2",
+      "impact": "Medium",
+      "previous": "95.0",
+      "title": "CB Consumer Confidence"
+    },
+    {
+      "country": "AUD",
+      "date": "2026-07-28T21:30:00-04:00",
+      "forecast": "0.8%",
+      "impact": "Medium",
+      "previous": "0.9%",
+      "title": "CPI q/q"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-29T08:15:00-04:00",
+      "forecast": "95K",
+      "impact": "Medium",
+      "previous": "112K",
+      "title": "ADP Employment Change"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-29T08:30:00-04:00",
+      "forecast": "1.9%",
+      "impact": "Medium",
+      "previous": "1.4%",
+      "title": "Advance GDP q/q"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-29T10:30:00-04:00",
+      "forecast": "0.8M",
+      "impact": "Medium",
+      "previous": "-1.6M",
+      "title": "Crude Oil Inventories"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-29T14:00:00-04:00",
+      "forecast": "4.00%",
+      "impact": "High",
+      "previous": "4.00%",
+      "title": "Federal Funds Rate"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-30T02:00:00-04:00",
+      "forecast": "0.2%",
+      "impact": "Medium",
+      "previous": "0.1%",
+      "title": "German Prelim CPI m/m"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-30T05:00:00-04:00",
+      "forecast": "2.0%",
+      "impact": "Medium",
+      "previous": "1.9%",
+      "title": "CPI Flash Estimate y/y"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-30T08:30:00-04:00",
+      "forecast": "231K",
+      "impact": "Medium",
+      "previous": "229K",
+      "title": "Unemployment Claims"
+    },
+    {
+      "country": "JPY",
+      "date": "2026-07-30T19:30:00-04:00",
+      "forecast": "2.4%",
+      "impact": "Low",
+      "previous": "2.5%",
+      "title": "Tokyo Core CPI y/y"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-31T08:30:00-04:00",
+      "forecast": "0.2%",
+      "impact": "Medium",
+      "previous": "0.3%",
+      "title": "Core PCE Price Index m/m"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-31T10:00:00-04:00",
+      "forecast": "64.4",
+      "impact": "Low",
+      "previous": "64.1",
+      "title": "Revised UoM Consumer Sentiment"
+    }
+  ],
+  "fetched_at": "2026-07-26T21:00:00Z",
+  "last_modified": "Sun, 26 Jul 2026 20:44:19 GMT",
+  "ok": true,
+  "tried_at": "2026-07-26T21:00:00Z",
+  "url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+  "week": "2026-07-26"
+}

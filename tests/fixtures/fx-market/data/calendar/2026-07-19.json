@@ -1,0 +1,204 @@
+{
+  "error": null,
+  "etag": null,
+  "events": [
+    {
+      "country": "NZD",
+      "date": "2026-07-19T18:45:00-04:00",
+      "forecast": "0.5%",
+      "impact": "Low",
+      "previous": "0.6%",
+      "title": "CPI q/q"
+    },
+    {
+      "country": "JPY",
+      "date": "2026-07-20T00:00:00-04:00",
+      "forecast": "",
+      "impact": "Holiday",
+      "previous": "",
+      "title": "Bank Holiday"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-20T02:00:00-04:00",
+      "forecast": "0.1%",
+      "impact": "Low",
+      "previous": "-0.2%",
+      "title": "German PPI m/m"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-20T10:00:00-04:00",
+      "forecast": "-0.1%",
+      "impact": "Low",
+      "previous": "-0.3%",
+      "title": "CB Leading Index m/m"
+    },
+    {
+      "country": "AUD",
+      "date": "2026-07-20T21:30:00-04:00",
+      "forecast": "",
+      "impact": "Low",
+      "previous": "",
+      "title": "Monetary Policy Meeting Minutes"
+    },
+    {
+      "country": "GBP",
+      "date": "2026-07-21T02:00:00-04:00",
+      "forecast": "14.2B",
+      "impact": "Low",
+      "previous": "17.7B",
+      "title": "Public Sector Net Borrowing"
+    },
+    {
+      "country": "CAD",
+      "date": "2026-07-21T08:30:00-04:00",
+      "forecast": "0.2%",
+      "impact": "Medium",
+      "previous": "0.4%",
+      "title": "CPI m/m"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-21T10:00:00-04:00",
+      "forecast": "-4",
+      "impact": "Low",
+      "previous": "-7",
+      "title": "Richmond Manufacturing Index"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-22T04:00:00-04:00",
+      "forecast": "30.1B",
+      "impact": "Low",
+      "previous": "31.2B",
+      "title": "Current Account"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-22T10:00:00-04:00",
+      "forecast": "4.02M",
+      "impact": "Medium",
+      "previous": "3.98M",
+      "title": "Existing Home Sales"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-22T10:30:00-04:00",
+      "forecast": "-1.2M",
+      "impact": "Medium",
+      "previous": "2.4M",
+      "title": "Crude Oil Inventories"
+    },
+    {
+      "country": "NZD",
+      "date": "2026-07-22T18:45:00-04:00",
+      "forecast": "-120M",
+      "impact": "Low",
+      "previous": "-215M",
+      "title": "Trade Balance"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-23T03:15:00-04:00",
+      "forecast": "49.6",
+      "impact": "Low",
+      "previous": "49.2",
+      "title": "French Flash Manufacturing PMI"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-23T03:30:00-04:00",
+      "forecast": "48.9",
+      "impact": "Medium",
+      "previous": "48.5",
+      "title": "German Flash Manufacturing PMI"
+    },
+    {
+      "country": "GBP",
+      "date": "2026-07-23T04:30:00-04:00",
+      "forecast": "50.3",
+      "impact": "Medium",
+      "previous": "50.1",
+      "title": "Flash Manufacturing PMI"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-23T08:15:00-04:00",
+      "forecast": "2.15%",
+      "impact": "High",
+      "previous": "2.15%",
+      "title": "Main Refinancing Rate"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-23T08:30:00-04:00",
+      "forecast": "229K",
+      "impact": "Medium",
+      "previous": "226K",
+      "title": "Unemployment Claims"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-23T08:45:00-04:00",
+      "forecast": "",
+      "impact": "High",
+      "previous": "",
+      "title": "ECB Press Conference"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-23T09:45:00-04:00",
+      "forecast": "52.1",
+      "impact": "Low",
+      "previous": "52.4",
+      "title": "Flash Manufacturing PMI"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-23T10:00:00-04:00",
+      "forecast": "648K",
+      "impact": "Low",
+      "previous": "623K",
+      "title": "New Home Sales"
+    },
+    {
+      "country": "GBP",
+      "date": "2026-07-24T02:00:00-04:00",
+      "forecast": "0.3%",
+      "impact": "Medium",
+      "previous": "-0.4%",
+      "title": "Retail Sales m/m"
+    },
+    {
+      "country": "EUR",
+      "date": "2026-07-24T04:00:00-04:00",
+      "forecast": "88.9",
+      "impact": "Low",
+      "previous": "88.4",
+      "title": "German ifo Business Climate"
+    },
+    {
+      "country": "USD",
+      "date": "2026-07-24T08:30:00-04:00",
+      "forecast": "1.1%",
+      "impact": "Medium",
+      "previous": "-0.8%",
+      "title": "Durable Goods Orders m/m"
+    },
+    {
+      "country": "CAD",
+      "date": "2026-07-24T08:30:00-04:00",
+      "forecast": "0.4%",
+      "impact": "Low",
+      "previous": "0.2%",
+      "title": "Retail Sales m/m"
+    }
+  ],
+  "fetched_at": "2026-07-19T21:00:00Z",
+  "last_modified": "Sun, 19 Jul 2026 20:38:52 GMT",
+  "ok": true,
+  "tried_at": "2026-07-19T21:00:00Z",
+  "url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+  "week": "2026-07-19"
+}

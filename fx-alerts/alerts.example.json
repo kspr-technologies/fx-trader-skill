@@ -1,0 +1,6 @@
+{"rules": [
+  {"id": "a1", "active": true, "from": "user", "symbol": null, "kind": "session_open", "level": null, "side": null, "at_utc": null, "minutes_before": 5, "session": "london", "position_id": null, "rolls_applied": {}, "note": "London opens"},
+  {"id": "a2", "active": true, "from": "user", "symbol": null, "kind": "session_open", "level": null, "side": null, "at_utc": null, "minutes_before": 5, "session": "new_york", "position_id": null, "rolls_applied": {}, "note": "New York opens"},
+  {"id": "a3", "active": true, "from": "user", "symbol": null, "kind": "rollover", "level": null, "side": null, "at_utc": null, "minutes_before": 30, "session": null, "position_id": null, "rolls_applied": {}, "note": "17:00 New York rollover: spreads get wide"},
+  {"id": "a4", "active": true, "from": "user", "symbol": "XAUUSD", "kind": "news", "level": null, "side": null, "at_utc": null, "minutes_before": 30, "session": null, "position_id": null, "rolls_applied": {}, "note": "big news for gold soon"},
+  {"id": "a5", "active": false, "from": "user", "symbol": "EURUSD", "kind": "above", "level": 1.13, "side": null, "at_utc": null, "minutes_before": null, "session": null, "position_id": null, "rolls_applied": {}, "note": "example: turn on and set your own price"}]}
