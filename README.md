@@ -10,11 +10,21 @@ Free, no signup, no API key. The tools are plain Python.
 Nothing in this pack places an order. You place each trade yourself, in
 your own MetaTrader. Paper trading is the default.
 
-**Version 1.0.0: please use paper trading only.** A review found gaps in live
-mode (`"paper": false`). For example, a live trade can be sized from the paper
-balance, and one wrong digit in `--broker-price` can move the stop. They are
-listed in the Issues tab of this repo, and the next version fixes them. Until
+**Version 1.0.0: please use paper trading only.** A review found these gaps.
+Most are in live mode (`"paper": false`). The next version fixes them. Until
 then, keep `"paper": true`.
+
+- A live trade can be sized from the paper balance in `fx/portfolio.json`.
+- One wrong digit in `--broker-price` can move the stop, and the yes is saved
+  before you see the broker's stop.
+- `stop --wider` has no limit, and the daily loss limit does not see it.
+- A pending (stop or limit) order that fills on a later day cannot be recorded,
+  and pending orders are left out of the margin and group checks.
+- After a "no" or a failed close, the same close cannot get a new yes that day.
+- `--now` works in live mode, so an old risk PASS can be used again.
+- `flatten` can give a time after an early close.
+- Small: a day pending order expires at the flat-by time, not at the entry
+  cut-off; for cross pairs (like GBPJPY) the loss can be a little over the limit.
 
 ## What it does
 
